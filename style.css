@@ -1,0 +1,75 @@
+/* Create the Outer layout of the Calculator. */
+.formstyle
+{
+width: 250px;
+height: 390px;
+margin: 20px auto;
+border: 3px solid skyblue;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+background-color: rgb(245, 237, 237);
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    /*padding: 20px 10px;*/
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+body{
+    background-image: url(bgImg.JPG);
+    height : 500px;
+    
+}
+
+/* Display top horizontal bar that contain some information. */
+h1 {
+	text-align: center;
+	padding: 23px;
+	background-color: skyblue;
+	color: white;
+	}
+input:hover
+{
+background-color: rgb(211, 211, 211);
+}
+	
+*{
+margin: 0;
+padding: 0;
+}
+
+/* It is used to create the layout for calculator button. */
+
+
+.btn {
+    background-color: #09caca; /* Green */
+    border: none;
+    color: rgb(1, 1, 1);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+.btn_C {color: red;}     /* red for Clear button text */
+.btn_num {background-color: rgb(223, 233, 235);}    /* different background for digits */
+  
+  
+/* It is used to display the numbers, operations and results. */
+.textview{
+border: none;
+width: 200px;
+margin: 5px;
+font-size: 25px;
+padding: 5px;
+background-color: rgb(250, 253, 250);
+}	
